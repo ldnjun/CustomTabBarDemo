@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EEC017B1BD774C90006A1DF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC01641BD774C90006A1DF /* UIView+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		5EEC017C1BD774C90006A1DF /* DJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC01681BD774C90006A1DF /* DJTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		5EEC017D1BD774C90006A1DF /* DJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC016B1BD774C90006A1DF /* DJTabBar.m */; settings = {ASSET_TAGS = (); }; };
+		5EEC017E1BD774C90006A1DF /* DWPublishButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC016D1BD774C90006A1DF /* DWPublishButton.m */; settings = {ASSET_TAGS = (); }; };
+		5EEC017F1BD774C90006A1DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC01701BD774C90006A1DF /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		5EEC01801BD774C90006A1DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC01711BD774C90006A1DF /* main.m */; settings = {ASSET_TAGS = (); }; };
+		5EEC01811BD774C90006A1DF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC01741BD774C90006A1DF /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
+		5EEC01821BD774C90006A1DF /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC01761BD774C90006A1DF /* FourthViewController.m */; settings = {ASSET_TAGS = (); }; };
+		5EEC01831BD774C90006A1DF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC01781BD774C90006A1DF /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
+		5EEC01841BD774C90006A1DF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC017A1BD774C90006A1DF /* ThirdViewController.m */; settings = {ASSET_TAGS = (); }; };
+		5EF3D08C1BD60D3300FDA24A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF3D08A1BD60D3300FDA24A /* Main.storyboard */; };
+		5EF3D08E1BD60D3300FDA24A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF3D08D1BD60D3300FDA24A /* Assets.xcassets */; };
+		5EF3D0911BD60D3300FDA24A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF3D08F1BD60D3300FDA24A /* LaunchScreen.storyboard */; };
+		5EF3D09C1BD60D3300FDA24A /* DJTabBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3D09B1BD60D3300FDA24A /* DJTabBarDemoTests.m */; };
+		5EF3D0A71BD60D3300FDA24A /* DJTabBarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3D0A61BD60D3300FDA24A /* DJTabBarDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EF3D0981BD60D3300FDA24A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EF3D0761BD60D3100FDA24A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EF3D07D1BD60D3200FDA24A;
+			remoteInfo = DJTabBarDemo;
+		};
+		5EF3D0A31BD60D3300FDA24A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EF3D0761BD60D3100FDA24A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EF3D07D1BD60D3200FDA24A;
+			remoteInfo = DJTabBarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EEC01631BD774C90006A1DF /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		5EEC01641BD774C90006A1DF /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		5EEC01671BD774C90006A1DF /* DJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJTabBarController.h; sourceTree = "<group>"; };
+		5EEC01681BD774C90006A1DF /* DJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJTabBarController.m; sourceTree = "<group>"; };
+		5EEC016A1BD774C90006A1DF /* DJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJTabBar.h; sourceTree = "<group>"; };
+		5EEC016B1BD774C90006A1DF /* DJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJTabBar.m; sourceTree = "<group>"; };
+		5EEC016C1BD774C90006A1DF /* DWPublishButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWPublishButton.h; sourceTree = "<group>"; };
+		5EEC016D1BD774C90006A1DF /* DWPublishButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWPublishButton.m; sourceTree = "<group>"; };
+		5EEC016F1BD774C90006A1DF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EEC01701BD774C90006A1DF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EEC01711BD774C90006A1DF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/Other/main.m; sourceTree = "<group>"; };
+		5EEC01731BD774C90006A1DF /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5EEC01741BD774C90006A1DF /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5EEC01751BD774C90006A1DF /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		5EEC01761BD774C90006A1DF /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		5EEC01771BD774C90006A1DF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5EEC01781BD774C90006A1DF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5EEC01791BD774C90006A1DF /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		5EEC017A1BD774C90006A1DF /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		5EF3D07E1BD60D3200FDA24A /* DJTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF3D08B1BD60D3300FDA24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EF3D08D1BD60D3300FDA24A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EF3D0901BD60D3300FDA24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EF3D0921BD60D3300FDA24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EF3D0971BD60D3300FDA24A /* DJTabBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJTabBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF3D09B1BD60D3300FDA24A /* DJTabBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJTabBarDemoTests.m; sourceTree = "<group>"; };
+		5EF3D09D1BD60D3300FDA24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EF3D0A21BD60D3300FDA24A /* DJTabBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJTabBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF3D0A61BD60D3300FDA24A /* DJTabBarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJTabBarDemoUITests.m; sourceTree = "<group>"; };
+		5EF3D0A81BD60D3300FDA24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EF3D07B1BD60D3200FDA24A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF3D0941BD60D3300FDA24A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF3D09F1BD60D3300FDA24A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EEC01611BD774C90006A1DF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5EEC01651BD774C90006A1DF /* Main */,
+				5EEC01721BD774C90006A1DF /* ViewController */,
+				5EEC01621BD774C90006A1DF /* Category */,
+				5EEC016E1BD774C90006A1DF /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5EEC01621BD774C90006A1DF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5EEC01631BD774C90006A1DF /* UIView+Extension.h */,
+				5EEC01641BD774C90006A1DF /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5EEC01651BD774C90006A1DF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5EEC01661BD774C90006A1DF /* Controller */,
+				5EEC01691BD774C90006A1DF /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5EEC01661BD774C90006A1DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5EEC01671BD774C90006A1DF /* DJTabBarController.h */,
+				5EEC01681BD774C90006A1DF /* DJTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5EEC01691BD774C90006A1DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EEC016A1BD774C90006A1DF /* DJTabBar.h */,
+				5EEC016B1BD774C90006A1DF /* DJTabBar.m */,
+				5EEC016C1BD774C90006A1DF /* DWPublishButton.h */,
+				5EEC016D1BD774C90006A1DF /* DWPublishButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5EEC016E1BD774C90006A1DF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5EEC016F1BD774C90006A1DF /* AppDelegate.h */,
+				5EEC01701BD774C90006A1DF /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5EEC01721BD774C90006A1DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5EEC01731BD774C90006A1DF /* FirstViewController.h */,
+				5EEC01741BD774C90006A1DF /* FirstViewController.m */,
+				5EEC01751BD774C90006A1DF /* FourthViewController.h */,
+				5EEC01761BD774C90006A1DF /* FourthViewController.m */,
+				5EEC01771BD774C90006A1DF /* SecondViewController.h */,
+				5EEC01781BD774C90006A1DF /* SecondViewController.m */,
+				5EEC01791BD774C90006A1DF /* ThirdViewController.h */,
+				5EEC017A1BD774C90006A1DF /* ThirdViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5EF3D0751BD60D3100FDA24A = {
+			isa = PBXGroup;
+			children = (
+				5EF3D0801BD60D3200FDA24A /* DJTabBarDemo */,
+				5EF3D09A1BD60D3300FDA24A /* DJTabBarDemoTests */,
+				5EF3D0A51BD60D3300FDA24A /* DJTabBarDemoUITests */,
+				5EF3D07F1BD60D3200FDA24A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EF3D07F1BD60D3200FDA24A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D07E1BD60D3200FDA24A /* DJTabBarDemo.app */,
+				5EF3D0971BD60D3300FDA24A /* DJTabBarDemoTests.xctest */,
+				5EF3D0A21BD60D3300FDA24A /* DJTabBarDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EF3D0801BD60D3200FDA24A /* DJTabBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5EEC01611BD774C90006A1DF /* Classes */,
+				5EF3D08A1BD60D3300FDA24A /* Main.storyboard */,
+				5EF3D08F1BD60D3300FDA24A /* LaunchScreen.storyboard */,
+				5EF3D0811BD60D3200FDA24A /* Supporting Files */,
+			);
+			path = DJTabBarDemo;
+			sourceTree = "<group>";
+		};
+		5EF3D0811BD60D3200FDA24A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D08D1BD60D3300FDA24A /* Assets.xcassets */,
+				5EF3D0921BD60D3300FDA24A /* Info.plist */,
+				5EEC01711BD774C90006A1DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EF3D09A1BD60D3300FDA24A /* DJTabBarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D09B1BD60D3300FDA24A /* DJTabBarDemoTests.m */,
+				5EF3D09D1BD60D3300FDA24A /* Info.plist */,
+			);
+			path = DJTabBarDemoTests;
+			sourceTree = "<group>";
+		};
+		5EF3D0A51BD60D3300FDA24A /* DJTabBarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D0A61BD60D3300FDA24A /* DJTabBarDemoUITests.m */,
+				5EF3D0A81BD60D3300FDA24A /* Info.plist */,
+			);
+			path = DJTabBarDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EF3D07D1BD60D3200FDA24A /* DJTabBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EF3D0AB1BD60D3300FDA24A /* Build configuration list for PBXNativeTarget "DJTabBarDemo" */;
+			buildPhases = (
+				5EF3D07A1BD60D3200FDA24A /* Sources */,
+				5EF3D07B1BD60D3200FDA24A /* Frameworks */,
+				5EF3D07C1BD60D3200FDA24A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJTabBarDemo;
+			productName = DJTabBarDemo;
+			productReference = 5EF3D07E1BD60D3200FDA24A /* DJTabBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EF3D0961BD60D3300FDA24A /* DJTabBarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EF3D0AE1BD60D3300FDA24A /* Build configuration list for PBXNativeTarget "DJTabBarDemoTests" */;
+			buildPhases = (
+				5EF3D0931BD60D3300FDA24A /* Sources */,
+				5EF3D0941BD60D3300FDA24A /* Frameworks */,
+				5EF3D0951BD60D3300FDA24A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EF3D0991BD60D3300FDA24A /* PBXTargetDependency */,
+			);
+			name = DJTabBarDemoTests;
+			productName = DJTabBarDemoTests;
+			productReference = 5EF3D0971BD60D3300FDA24A /* DJTabBarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EF3D0A11BD60D3300FDA24A /* DJTabBarDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EF3D0B11BD60D3300FDA24A /* Build configuration list for PBXNativeTarget "DJTabBarDemoUITests" */;
+			buildPhases = (
+				5EF3D09E1BD60D3300FDA24A /* Sources */,
+				5EF3D09F1BD60D3300FDA24A /* Frameworks */,
+				5EF3D0A01BD60D3300FDA24A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EF3D0A41BD60D3300FDA24A /* PBXTargetDependency */,
+			);
+			name = DJTabBarDemoUITests;
+			productName = DJTabBarDemoUITests;
+			productReference = 5EF3D0A21BD60D3300FDA24A /* DJTabBarDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EF3D0761BD60D3100FDA24A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = yamon;
+				TargetAttributes = {
+					5EF3D07D1BD60D3200FDA24A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					5EF3D0961BD60D3300FDA24A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5EF3D07D1BD60D3200FDA24A;
+					};
+					5EF3D0A11BD60D3300FDA24A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5EF3D07D1BD60D3200FDA24A;
+					};
+				};
+			};
+			buildConfigurationList = 5EF3D0791BD60D3100FDA24A /* Build configuration list for PBXProject "DJTabBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EF3D0751BD60D3100FDA24A;
+			productRefGroup = 5EF3D07F1BD60D3200FDA24A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EF3D07D1BD60D3200FDA24A /* DJTabBarDemo */,
+				5EF3D0961BD60D3300FDA24A /* DJTabBarDemoTests */,
+				5EF3D0A11BD60D3300FDA24A /* DJTabBarDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EF3D07C1BD60D3200FDA24A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF3D0911BD60D3300FDA24A /* LaunchScreen.storyboard in Resources */,
+				5EF3D08E1BD60D3300FDA24A /* Assets.xcassets in Resources */,
+				5EF3D08C1BD60D3300FDA24A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF3D0951BD60D3300FDA24A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF3D0A01BD60D3300FDA24A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EF3D07A1BD60D3200FDA24A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEC01831BD774C90006A1DF /* SecondViewController.m in Sources */,
+				5EEC017E1BD774C90006A1DF /* DWPublishButton.m in Sources */,
+				5EEC01811BD774C90006A1DF /* FirstViewController.m in Sources */,
+				5EEC017F1BD774C90006A1DF /* AppDelegate.m in Sources */,
+				5EEC017B1BD774C90006A1DF /* UIView+Extension.m in Sources */,
+				5EEC017D1BD774C90006A1DF /* DJTabBar.m in Sources */,
+				5EEC01801BD774C90006A1DF /* main.m in Sources */,
+				5EEC017C1BD774C90006A1DF /* DJTabBarController.m in Sources */,
+				5EEC01821BD774C90006A1DF /* FourthViewController.m in Sources */,
+				5EEC01841BD774C90006A1DF /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF3D0931BD60D3300FDA24A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF3D09C1BD60D3300FDA24A /* DJTabBarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF3D09E1BD60D3300FDA24A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF3D0A71BD60D3300FDA24A /* DJTabBarDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EF3D0991BD60D3300FDA24A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EF3D07D1BD60D3200FDA24A /* DJTabBarDemo */;
+			targetProxy = 5EF3D0981BD60D3300FDA24A /* PBXContainerItemProxy */;
+		};
+		5EF3D0A41BD60D3300FDA24A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EF3D07D1BD60D3200FDA24A /* DJTabBarDemo */;
+			targetProxy = 5EF3D0A31BD60D3300FDA24A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EF3D08A1BD60D3300FDA24A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EF3D08B1BD60D3300FDA24A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EF3D08F1BD60D3300FDA24A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EF3D0901BD60D3300FDA24A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EF3D0A91BD60D3300FDA24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EF3D0AA1BD60D3300FDA24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EF3D0AC1BD60D3300FDA24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJTabBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamon.DJTabBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EF3D0AD1BD60D3300FDA24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJTabBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamon.DJTabBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5EF3D0AF1BD60D3300FDA24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DJTabBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamon.DJTabBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJTabBarDemo.app/DJTabBarDemo";
+			};
+			name = Debug;
+		};
+		5EF3D0B01BD60D3300FDA24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DJTabBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamon.DJTabBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJTabBarDemo.app/DJTabBarDemo";
+			};
+			name = Release;
+		};
+		5EF3D0B21BD60D3300FDA24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DJTabBarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamon.DJTabBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DJTabBarDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5EF3D0B31BD60D3300FDA24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DJTabBarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamon.DJTabBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DJTabBarDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EF3D0791BD60D3100FDA24A /* Build configuration list for PBXProject "DJTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF3D0A91BD60D3300FDA24A /* Debug */,
+				5EF3D0AA1BD60D3300FDA24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EF3D0AB1BD60D3300FDA24A /* Build configuration list for PBXNativeTarget "DJTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF3D0AC1BD60D3300FDA24A /* Debug */,
+				5EF3D0AD1BD60D3300FDA24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EF3D0AE1BD60D3300FDA24A /* Build configuration list for PBXNativeTarget "DJTabBarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF3D0AF1BD60D3300FDA24A /* Debug */,
+				5EF3D0B01BD60D3300FDA24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EF3D0B11BD60D3300FDA24A /* Build configuration list for PBXNativeTarget "DJTabBarDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF3D0B21BD60D3300FDA24A /* Debug */,
+				5EF3D0B31BD60D3300FDA24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EF3D0761BD60D3100FDA24A /* Project object */;
+}
